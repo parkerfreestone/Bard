@@ -1,10 +1,5 @@
-import {
-  DarkTheme,
-  DefaultTheme,
-  NavigationContainer,
-  useTheme,
-} from "@react-navigation/native";
-import { ReactNode, useEffect } from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { ReactNode } from "react";
 import { useColorScheme } from "react-native";
 
 type Props = { children?: ReactNode };
@@ -15,10 +10,10 @@ export const colorSchemes = {
     colors: {
       primary: "#246bfd",
       secondary: "#a06af9",
-      background: "#181a21",
-      card: "#262937",
+      background: "#131a22",
+      card: "#1c2025",
       text: "#eee",
-      border: "#332b4f",
+      border: "#292d34",
       notification: "fff",
     },
   },
