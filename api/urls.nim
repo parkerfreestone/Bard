@@ -1,8 +1,11 @@
+import std/strformat
 import prologue
 
-import ./views
+import ./views/auth
 
+const API_PREFIX = "/api/v1"
 
 let urlPatterns* = @[
-  pattern("/", hello)
+  # Auth patterns
+  pattern(&"{API_PREFIX}/auth", index)
 ]
