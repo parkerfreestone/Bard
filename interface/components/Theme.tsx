@@ -8,10 +8,10 @@ export const colorSchemes = {
   dark: {
     dark: true,
     colors: {
-      primary: "#246bfd",
+      primary: "#69efd2",
       secondary: "#a06af9",
-      background: "#131a22",
-      card: "#1c2025",
+      background: "#141318",
+      card: "#211f29",
       text: "#eee",
       border: "#292d34",
       notification: "fff",
@@ -20,7 +20,7 @@ export const colorSchemes = {
   light: {
     dark: false,
     colors: {
-      primary: "#373057",
+      primary: "#246bfd",
       background: "#fff",
       card: "#fff",
       text: "#000",
